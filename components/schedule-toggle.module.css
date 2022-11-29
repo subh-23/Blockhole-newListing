@@ -1,0 +1,35 @@
+.rectangleDiv,
+.rectangleDiv1 {
+  position: relative;
+  border-radius: var(--br-md);
+  background-color: var(--light-4001);
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.rectangleDiv1 {
+  opacity: 0;
+}
+.formDiv,
+.togglesDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.togglesDiv {
+  border-radius: var(--br-lg);
+  border: 2px solid var(--light-4001);
+  box-sizing: border-box;
+  padding: var(--padding-2xs);
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.formDiv {
+  width: 713px;
+  justify-content: center;
+  gap: var(--gap-3xl);
+  text-align: left;
+  font-size: var(--title-161-size);
+  color: var(--light-10001);
+  font-family: var(--title-161);
+}

@@ -1,0 +1,10 @@
+.requiredFieldsDiv {
+  position: relative;
+  font-size: var(--title-161-size);
+  line-height: 24px;
+  font-weight: 600;
+  font-family: var(--title-161);
+  color: var(--main-red5);
+  text-align: left;
+  display: inline-block;
+}

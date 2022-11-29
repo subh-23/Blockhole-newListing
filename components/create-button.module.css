@@ -1,0 +1,32 @@
+.buttonDiv {
+  flex: 1;
+  position: relative;
+  font-size: var(--title-161-size);
+  line-height: 24px;
+  font-family: var(--title-161);
+  color: var(--light-02);
+  text-align: center;
+  display: inline-block;
+}
+.button,
+.component3Button {
+  cursor: pointer;
+  border: 0;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  padding: var(--padding-md);
+  background-color: var(--light-10001);
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  flex-direction: row;
+}
+.component3Button {
+  padding: var(--padding-3xs) 0;
+  background-color: transparent;
+  width: 292px;
+  flex-direction: column;
+}

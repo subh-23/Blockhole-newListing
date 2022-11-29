@@ -1,0 +1,23 @@
+.div,
+.uploadFilesDiv {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.div {
+  flex: 1;
+  color: var(--main-red5);
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  text-align: left;
+  font-size: var(--title-161-size);
+  color: var(--light-10001);
+  font-family: var(--title-161);
+}

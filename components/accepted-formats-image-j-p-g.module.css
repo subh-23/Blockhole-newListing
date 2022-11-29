@@ -1,0 +1,10 @@
+.acceptedFormatsImageJPG {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--title-161-size);
+  line-height: 24px;
+  font-family: var(--title-161);
+  color: var(--light-6002);
+  text-align: left;
+  display: inline-block;
+}

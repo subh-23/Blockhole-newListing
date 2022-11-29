@@ -1,0 +1,10 @@
+.explicitSensitiveContent {
+  position: relative;
+  font-size: var(--title-205-size);
+  line-height: 28px;
+  font-weight: 600;
+  font-family: var(--title-161);
+  color: var(--light-10001);
+  text-align: left;
+  display: inline-block;
+}

@@ -1,0 +1,14 @@
+.frameDiv {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--light-1006);
+  border: 2px dashed var(--light-3006);
+  box-sizing: border-box;
+  height: 182px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-2xl) var(--padding-3xl);
+  align-items: center;
+  justify-content: center;
+}

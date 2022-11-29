@@ -1,0 +1,11 @@
+.createNewListing {
+  position: relative;
+  background-color: var(--light-1006);
+  width: 100%;
+  height: 2508px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-heading-11-size);
+  color: var(--light-10001);
+  font-family: var(--title-161);
+}

@@ -1,0 +1,24 @@
+.dragDropFile,
+.orBrowseMediaOnYourDevice {
+  position: relative;
+  font-size: var(--title-161-size);
+  line-height: 24px;
+  font-family: var(--title-161);
+  color: var(--light-6002);
+  text-align: center;
+  display: inline-block;
+}
+.orBrowseMediaOnYourDevice {
+  color: var(--main-purple5);
+}
+.frameButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+}

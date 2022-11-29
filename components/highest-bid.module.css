@@ -1,0 +1,22 @@
+.highestBidDiv {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.div {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-lg);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--title-145-size);
+  color: var(--light-6002);
+  font-family: var(--title-161);
+}

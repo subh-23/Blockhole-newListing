@@ -1,0 +1,71 @@
+.setPriceDiv {
+  flex: 1;
+  position: relative;
+  font-size: var(--title-145-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--title-161);
+  color: var(--light-02);
+  text-align: center;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-md) var(--padding-xs);
+  background-color: var(--light-10001);
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-lg);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.highestBidDiv {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+}
+.div {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-lg);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-md) var(--padding-xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.formDiv,
+.selectDiv {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.selectDiv {
+  border-radius: var(--br-lg);
+  border: 2px solid var(--light-2004);
+  box-sizing: border-box;
+  width: 244px;
+  flex-shrink: 0;
+  overflow: hidden;
+  display: none;
+  gap: var(--gap-0);
+  text-align: center;
+  font-size: var(--title-145-size);
+  color: var(--light-6002);
+}
+.formDiv {
+  align-self: stretch;
+  display: flex;
+  gap: var(--gap-md);
+  text-align: left;
+  font-size: var(--title-205-size);
+  color: var(--light-10001);
+  font-family: var(--title-161);
+}

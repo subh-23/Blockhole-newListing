@@ -1,0 +1,25 @@
+.setPriceDiv {
+  flex: 1;
+  position: relative;
+  font-size: var(--title-145-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--title-161);
+  color: var(--light-02);
+  text-align: center;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-md) var(--padding-xs);
+  background-color: var(--light-10001);
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-lg);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+.weWillIncludeALinkToThis {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  display: none;
+}
+.formDiv {
+  width: 712px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--title-161-size);
+  color: var(--light-6002);
+  font-family: var(--title-161);
+}

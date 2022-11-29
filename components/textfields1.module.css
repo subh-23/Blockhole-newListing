@@ -1,0 +1,12 @@
+.textfieldsInput {
+  border: 1px solid var(--light-3006);
+  background-color: var(--light-1006);
+  flex: 1;
+  border-radius: var(--br-xs);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg);
+  align-items: center;
+  justify-content: flex-start;
+}

@@ -1,0 +1,139 @@
+.chooseCategoryDiv,
+.div {
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: inline-block;
+}
+.div {
+  flex: 1;
+  color: var(--main-red5);
+  display: none;
+}
+.frameDiv1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+  color: var(--light-10001);
+}
+.weWillIncludeALinkToThis {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  display: none;
+}
+.selectDiv {
+  flex: 1;
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+}
+.riarrowDropDownLineIcon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.formDiv,
+.formInput,
+.textfieldsDiv {
+  display: flex;
+  justify-content: flex-start;
+}
+.textfieldsDiv {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+  background-color: var(--light-1006);
+  border: 1px solid var(--light-3006);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-lg);
+  align-items: center;
+  gap: var(--gap-sm);
+}
+.formDiv,
+.formInput {
+  width: 712px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.formDiv {
+  gap: var(--gap-xs);
+  color: var(--light-6002);
+}
+.formInput {
+  border: 0;
+  background-color: transparent;
+}
+.setThisItemAsExplicitAnd {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  color: var(--light-6002);
+  display: inline-block;
+}
+.formDiv1,
+.frameDiv2 {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv2 {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.formDiv1 {
+  width: 712px;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.phplusIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.addPropertyDiv {
+  position: relative;
+  font-size: var(--title-145-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--title-161);
+  color: var(--light-4001);
+  text-align: left;
+  display: inline-block;
+}
+.frameButton {
+  cursor: pointer;
+  border: 2px solid var(--light-4001);
+  padding: var(--padding-xs) var(--padding-md);
+  background-color: var(--light-1006);
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 140px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+  font-size: var(--title-161-size);
+  color: var(--light-10001);
+  font-family: var(--title-161);
+}

@@ -1,0 +1,12 @@
+.formDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  text-align: left;
+  font-size: var(--title-205-size);
+  color: var(--light-10001);
+  font-family: var(--title-161);
+}

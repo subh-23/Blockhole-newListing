@@ -1,0 +1,32 @@
+.phplusIcon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.addPropertyDiv {
+  position: relative;
+  font-size: var(--title-145-size);
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--title-161);
+  color: var(--light-4001);
+  text-align: left;
+  display: inline-block;
+}
+.frameButton {
+  cursor: pointer;
+  border: 2px solid var(--light-4001);
+  padding: var(--padding-xs) var(--padding-md);
+  background-color: var(--light-1006);
+  border-radius: var(--br-lg);
+  box-sizing: border-box;
+  width: 140px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-2xs);
+}
